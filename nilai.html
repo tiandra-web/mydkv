@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilai Siswa</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="page-title">Informasi Nilai Siswa</h1>
+    <div id="data-container" class="data-container"></div>
+
+    <script>
+        fetch('data_nilai.json')
+            .then(response => response.json())
+            .then(data => {
+                let tableHTML = '<table class="data-table"><tr><th>NISN</th><th>Nama</th><th>Kelas</th><th>Dasar DKV</th><th>Kedisiplinan</th><th>Nilai PTS</th><th>Nilai UAS</th><th>Nilai Akhir</th></tr>';
+                
+                // Loop untuk menampilkan data siswa dari JSON
+                data.forEach(siswa => {
+                    tableHTML += `<tr>
+                        <td>${siswa.NISN}</td>
+                        <td>${siswa.Nama}</td>
+                        <td>${siswa.Kelas}</td>
+                        <td>${siswa.DasarDKV}</td>
+                        <td>${siswa.Kedisiplinan}</td>
+                        <td>${siswa.NilaiPTS}</td>
+                        <td>${siswa.NilaiUAS}</td>
+                        <td>${siswa.NilaiAkhir}</td>
+                    </tr>`;
+                });
+
+                tableHTML += '</table>';
+                document.getElementById('data-container').innerHTML = tableHTML;
+            })
+            .catch(error => console.error('Error loading data:', error));
+    </script>
+</body>
+</html>

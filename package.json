@@ -1,0 +1,16 @@
+{
+  "name": "nilai-siswa-app",
+  "version": "1.0.0",
+  "description": "Aplikasi untuk menampilkan nilai siswa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "debug": "^4.3.1",
+    "ejs": "^3.1.10",
+    "express": "^4.17.1",
+    "express-session": "^1.18.0",
+    "xlsx": "^0.17.0"
+  }
+}

@@ -1,0 +1,353 @@
+[
+  {
+    "NISN": 3097627873,
+    "Nama": "ADITYA ANANDA",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 62.19047619047619,
+    "Kedisiplinan": "D",
+    "Nilai PTS": 42,
+    "Nilai Akhir": 62.19047619047619
+  },
+  {
+    "NISN": "0083301311",
+    "Nama": "AHLA ALIFAH FAUJIAH",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 80.23809523809526,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 59,
+    "Nilai Akhir": 80.23809523809526
+  },
+  {
+    "NISN": "0093876073",
+    "Nama": "AKHILA SAGARA SYALIRA",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 58.857142857142854,
+    "Kedisiplinan": "B",
+    "Nilai PTS": 22,
+    "Nilai Akhir": 58.857142857142854
+  },
+  {
+    "NISN": "0098523448",
+    "Nama": "ALGHIFARI KAFIN SABIANSYAH",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 62.476190476190474,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 31,
+    "Nilai Akhir": 62.476190476190474
+  },
+  {
+    "NISN": "0098107628",
+    "Nama": "ALIEN FADHLAN SUSENO",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 45.23809523809524,
+    "Kedisiplinan": "B",
+    "Nilai PTS": 21,
+    "Nilai Akhir": 45.23809523809524
+  },
+  {
+    "NISN": "0096457327",
+    "Nama": "ANGGI MUHAMAD RESTU",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 73.28571428571429,
+    "Kedisiplinan": "B",
+    "Nilai PTS": 20,
+    "Nilai Akhir": 73.28571428571429
+  },
+  {
+    "NISN": "0093105585",
+    "Nama": "ANNISA SYAFIRA FAUZI",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 70.76190476190476,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 28,
+    "Nilai Akhir": 70.76190476190476
+  },
+  {
+    "NISN": "0081809548",
+    "Nama": "ARKA LINGGAR JATY",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 59.714285714285715,
+    "Kedisiplinan": "D",
+    "Nilai PTS": 33,
+    "Nilai Akhir": 59.714285714285715
+  },
+  {
+    "NISN": "0089279715",
+    "Nama": "BELVARETTA FAURELL AZMI",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 75.95238095238096,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 46,
+    "Nilai Akhir": 75.95238095238096
+  },
+  {
+    "NISN": "0092260869",
+    "Nama": "CHANTIKA PRISILLA PUTRI",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 82,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 52,
+    "Nilai Akhir": 82
+  },
+  {
+    "NISN": "0098284815",
+    "Nama": "DOLI SAPUTRA PURBA",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 79.52380952380953,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 50,
+    "Nilai Akhir": 79.52380952380953
+  },
+  {
+    "NISN": "0099609626",
+    "Nama": "DWI RIZKY ALVIANSYAH",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 48.952380952380956,
+    "Kedisiplinan": "E",
+    "Nilai PTS": 34,
+    "Nilai Akhir": 48.952380952380956
+  },
+  {
+    "NISN": "0094315364",
+    "Nama": "FAJAR GARDANAWAN",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 75.71428571428571,
+    "Kedisiplinan": "B",
+    "Nilai PTS": 42,
+    "Nilai Akhir": 75.71428571428571
+  },
+  {
+    "NISN": "0087673461",
+    "Nama": "GALANG",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 74.23809523809526,
+    "Kedisiplinan": "C",
+    "Nilai PTS": 42,
+    "Nilai Akhir": 74.23809523809526
+  },
+  {
+    "NISN": "0092700866",
+    "Nama": "IFTAHI ROHMAH",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 60.23809523809524,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 18,
+    "Nilai Akhir": 60.23809523809524
+  },
+  {
+    "NISN": "3093815142",
+    "Nama": "ILA MULYASARI",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 69.95238095238095,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 15,
+    "Nilai Akhir": 69.95238095238095
+  },
+  {
+    "NISN": "0091343133",
+    "Nama": "KENNARD FARREL AIDAN",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 37.714285714285715,
+    "Kedisiplinan": "C",
+    "Nilai PTS": 34,
+    "Nilai Akhir": 37.714285714285715
+  },
+  {
+    "NISN": "0093201017",
+    "Nama": "LUTFIAH ANNISA",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 72.85714285714286,
+    "Kedisiplinan": "B",
+    "Nilai PTS": 29,
+    "Nilai Akhir": 72.85714285714286
+  },
+  {
+    "NISN": "0094870913",
+    "Nama": "MARTIN DIO ANGGARA",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 39.142857142857146,
+    "Kedisiplinan": "D",
+    "Nilai PTS": 38,
+    "Nilai Akhir": 39.142857142857146
+  },
+  {
+    "NISN": "0082161826",
+    "Nama": "MAWLA IHSAN RAMADHAN",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 46.952380952380956,
+    "Kedisiplinan": "B",
+    "Nilai PTS": 20,
+    "Nilai Akhir": 46.952380952380956
+  },
+  {
+    "NISN": "3087539823",
+    "Nama": "MIFTAHUL FALAH",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 72.23809523809524,
+    "Kedisiplinan": "B",
+    "Nilai PTS": 33,
+    "Nilai Akhir": 72.23809523809524
+  },
+  {
+    "NISN": "0093125684",
+    "Nama": "MOHAMAD NAZHAR TRIYANA",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 36.142857142857146,
+    "Kedisiplinan": "C",
+    "Nilai PTS": 13,
+    "Nilai Akhir": 36.142857142857146
+  },
+  {
+    "NISN": "0087602972",
+    "Nama": "MUHAMAD AL-GHIFARI RAMADHAN",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 70.52380952380953,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 15,
+    "Nilai Akhir": 70.52380952380953
+  },
+  {
+    "NISN": "0095865233",
+    "Nama": "MUHAMAD JAELANI",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 77.23809523809526,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 32,
+    "Nilai Akhir": 77.23809523809526
+  },
+  {
+    "NISN": "0097616010",
+    "Nama": "MUHAMAD RIZKI AULIA",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 60.904761904761905,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 24,
+    "Nilai Akhir": 60.904761904761905
+  },
+  {
+    "NISN": "0098939798",
+    "Nama": "MUHAMMAD AZMI",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 72.66666666666667,
+    "Kedisiplinan": "D",
+    "Nilai PTS": 27,
+    "Nilai Akhir": 72.66666666666667
+  },
+  {
+    "NISN": "0091950435",
+    "Nama": "MUTIA KAMILAH",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 60.66666666666667,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 33,
+    "Nilai Akhir": 72.23809523809524
+  },
+  {
+    "NISN": "0096079311",
+    "Nama": "NISA BELLA",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 73.3809523809524,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 21,
+    "Nilai Akhir": 73.3809523809524
+  },
+  {
+    "NISN": "0088426660",
+    "Nama": "OKTA AWALIA RAHAYU",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 43.38095238095239,
+    "Kedisiplinan": "B",
+    "Nilai PTS": 0,
+    "Nilai Akhir": 43.38095238095239
+  },
+  {
+    "NISN": "0094971275",
+    "Nama": "RADEN SYARIEF HIDAYATULLAH",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 72.0952380952381,
+    "Kedisiplinan": "B",
+    "Nilai PTS": 27,
+    "Nilai Akhir": 72.0952380952381
+  },
+  {
+    "NISN": "0073669419",
+    "Nama": "RAFLI PUTRA SUTARNO",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 60.33333333333333,
+    "Kedisiplinan": "B",
+    "Nilai PTS": 26,
+    "Nilai Akhir": 60.33333333333333
+  },
+  {
+    "NISN": "0085510552",
+    "Nama": "REHAN AL PARIZI",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 65.23809523809524,
+    "Kedisiplinan": "B",
+    "Nilai PTS": 56,
+    "Nilai Akhir": 65.23809523809524
+  },
+  {
+    "NISN": "0094482099",
+    "Nama": "RIFAT RAZIB AZIZI",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 57.952380952380956,
+    "Kedisiplinan": "B",
+    "Nilai PTS": 13,
+    "Nilai Akhir": 57.952380952380956
+  },
+  {
+    "NISN": "0073970325",
+    "Nama": "RYNJANIE QAYLA KUSUMA",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 38.19047619047619,
+    "Kedisiplinan": "B",
+    "Nilai PTS": 20,
+    "Nilai Akhir": 38.19047619047619
+  },
+  {
+    "NISN": "0094531419",
+    "Nama": "SASKIA DILIANA SEPTIANI",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 73.71428571428571,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 21,
+    "Nilai Akhir": 73.71428571428571
+  },
+  {
+    "NISN": "0098150475",
+    "Nama": "SINTIA YANI",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 62.66666666666667,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 23,
+    "Nilai Akhir": 62.66666666666667
+  },
+  {
+    "NISN": "0098675586",
+    "Nama": "SYADDAD SAUQI ALFATIH",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 66,
+    "Kedisiplinan": "A",
+    "Nilai PTS": 62,
+    "Nilai Akhir": 66
+  },
+  {
+    "NISN": "0085606543",
+    "Nama": "TEGUH RHAMADAN TAMPAN",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 46,
+    "Kedisiplinan": "C",
+    "Nilai PTS": 38,
+    "Nilai Akhir": 46
+  },
+  {
+    "NISN": "0082138713",
+    "Nama": "ZAHRA MUTIARA HAERANI",
+    "Kelas": "X DKV 2",
+    "Dasar DKV": 58.285714285714285,
+    "Kedisiplinan": "D",
+    "Nilai PTS": 30,
+    "Nilai Akhir": 58.285714285714285
+  }
+]

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informasi Nilai Siswa</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <img src="images/images.png" alt="Logo Kiri" class="logo logo-left"> <!-- Logo di kiri -->
+    <img src="images/file.png" alt="Logo Kanan" class="logo logo-right"> <!-- Logo di kanan -->
+
+    <form action="/nilai" method="post" class="form-box">
+        <div class="title-box">MASUKKAN NISN KAMU</div>
+        <input type="text" id="nisn" name="nisn" required>
+        <div class="button-box">Cari Nilai</div>
+    </form>
+
+    <script>
+        document.querySelector('.button-box').addEventListener('click', function() {
+            this.closest('form').submit(); // Mengirim form ketika tombol diklik
+        });
+    </script>
+</body>
+</html>
