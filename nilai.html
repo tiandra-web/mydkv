@@ -11,29 +11,44 @@
     <div id="data-container" class="data-container"></div>
 
     <script>
+        // Ambil parameter NISN dari URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const nisn = urlParams.get('nisn');
+
+        // Jika NISN tidak ada di URL, tampilkan pesan error
+        if (!nisn) {
+            document.getElementById('data-container').innerHTML = '<p>Parameter NISN tidak ditemukan. Kembali ke halaman utama dan masukkan NISN Anda.</p>';
+            return;
+        }
+
+        // Jika NISN ditemukan, cari data yang sesuai di file JSON
         fetch('data_nilai.json')
             .then(response => response.json())
             .then(data => {
-                let tableHTML = '<table class="data-table"><tr><th>NISN</th><th>Nama</th><th>Kelas</th><th>Dasar DKV</th><th>Kedisiplinan</th><th>Nilai PTS</th><th>Nilai UAS</th><th>Nilai Akhir</th></tr>';
-                
-                // Loop untuk menampilkan data siswa dari JSON
-                data.forEach(siswa => {
-                    tableHTML += `<tr>
-                        <td>${siswa.NISN}</td>
-                        <td>${siswa.Nama}</td>
-                        <td>${siswa.Kelas}</td>
-                        <td>${siswa.DasarDKV}</td>
-                        <td>${siswa.Kedisiplinan}</td>
-                        <td>${siswa.NilaiPTS}</td>
-                        <td>${siswa.NilaiUAS}</td>
-                        <td>${siswa.NilaiAkhir}</td>
-                    </tr>`;
-                });
-
-                tableHTML += '</table>';
-                document.getElementById('data-container').innerHTML = tableHTML;
+                let siswa = data.find(item => item.NISN === nisn);
+                if (siswa) {
+                    let tableHTML = `<table class="data-table">
+                        <tr><th>NISN</th><th>Nama</th><th>Kelas</th><th>Dasar DKV</th><th>Kedisiplinan</th><th>Nilai PTS</th><th>Nilai UAS</th><th>Nilai Akhir</th></tr>
+                        <tr>
+                            <td>${siswa.NISN}</td>
+                            <td>${siswa.Nama}</td>
+                            <td>${siswa.Kelas}</td>
+                            <td>${siswa.DasarDKV}</td>
+                            <td>${siswa.Kedisiplinan}</td>
+                            <td>${siswa.NilaiPTS}</td>
+                            <td>${siswa.NilaiUAS}</td>
+                            <td>${siswa.NilaiAkhir}</td>
+                        </tr>
+                    </table>`;
+                    document.getElementById('data-container').innerHTML = tableHTML;
+                } else {
+                    document.getElementById('data-container').innerHTML = `<p>Data siswa dengan NISN ${nisn} tidak ditemukan.</p>`;
+                }
             })
-            .catch(error => console.error('Error loading data:', error));
+            .catch(error => {
+                console.error('Error loading data:', error);
+                document.getElementById('data-container').innerHTML = `<p>Terjadi kesalahan saat memuat data.</p>`;
+            });
     </script>
 </body>
 </html>
